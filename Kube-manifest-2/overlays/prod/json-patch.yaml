@@ -1,0 +1,10 @@
+- op: replace
+  path: "/spec/template/spec/containers/1/env/0"
+  value:
+    name: environment
+    value: "prod"
+- op: replace
+  path: "/spec/template/spec/containers/2/env/0"
+  value:
+    name: git-branch
+    value: "master"
